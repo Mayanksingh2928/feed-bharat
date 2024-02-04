@@ -1,0 +1,83 @@
+
+/* Add your CSS styles here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Navigation bar styles */
+.navbar {
+    background: linear-gradient(to bottom, orange, green);
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #333;
+}
+
+/* About Us section styles */
+.about-section {
+    padding: 60px;
+    text-align: center;
+    
+}
+
+.about-section img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    border: 5px solid;
+    border-color: #ffa500;
+}
+
+.about-section h1{
+
+    border: 5px solid;
+    border-color: #ffa500;
+    border-radius: 5rem;
+    border-width: 10px;
+
+}
+/* Apply font styles to <h2> */
+h2 {
+    font-family: "Georgia", serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px;
+    border-bottom: 2px solid #ffa500; /* Add an elegant underline */
+    padding-bottom: 5px; /* Spacing between text and underline */
+}
+
+/* Apply font styles to <p> */
+p {
+    font-family: "Helvetica", sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Add a subtle background color to <p> for better readability */
+p {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 5px; /* Rounded corners for a modern look */
+}
